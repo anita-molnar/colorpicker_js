@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <title>Color Picker</title>
+    <style>
+      #flex {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 275px;
+        height: auto;
+        width: 300px;
+        font-size: 48px;
+        padding-left: 40%;
+      }
+
+      h1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+      }
+      #myDIV {
+        width: 300px;
+        height: 300px;
+        background-color: coral;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Click the button and type a color!</h1>
+    <div id="flex">
+      <button id="test-button">Click me</button>
+      <div id="myDIV"></div>
+    </div>
+    <script src="test.js"></script>
+  </body>
+</html>
